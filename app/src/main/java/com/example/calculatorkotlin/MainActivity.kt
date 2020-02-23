@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         divide.setOnClickListener{setTextFields("/")}
         bracket1.setOnClickListener{setTextFields("(")}
         bracket2.setOnClickListener{setTextFields(")")}
+        btn_dot.setOnClickListener{setTextFields(".")}
 
         AC.setOnClickListener{
             math_operation.text = "0"
